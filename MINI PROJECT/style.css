@@ -119,7 +119,7 @@ body{
     background-color: var(--yellow);
     border-radius: 8px;
     border: 0;
-    align-items: right;
+    
 }
 
 .image-2{
@@ -129,6 +129,20 @@ body{
     margin-left: 50px;
 }
 
+#our-service{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#underline{
+    width: 45%;
+    height: 3px;
+    background-color: var(--yellow);
+    margin-bottom: 35px;
+    border: 0;
+    border-radius: 8px;
+}
 .box{
     background-color: var(--yellow);
     width: 275px;
@@ -174,4 +188,24 @@ body{
 .box a{
     text-decoration: none;
     color: var(--black1);
+}
+
+.form-body{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side{
+    background-color: var(--yellow);
+    height: 600px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+#contact-image{
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+    margin-top: 180px;
 }
